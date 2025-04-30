@@ -12,6 +12,7 @@ const App = () => {
   const fetchWeather = async () => {
     setWeather(null);
     setError('');
+    
 
     if (!place.trim()) {
       setError('Please enter a place name.');
